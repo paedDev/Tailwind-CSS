@@ -4,6 +4,7 @@ import IntroP2 from "./Components/introP2"
 import Grid from "./Components/Grid"
 import MakeCards from "./Components/MakeCards"
 import Buttons from "./Components/Buttons"
+import Form from "./Components/Form"
 
 // import Card from "./Components/card"
 function App() {
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <>
-    <Buttons />
+    <Form />
     </>
   )
 }
