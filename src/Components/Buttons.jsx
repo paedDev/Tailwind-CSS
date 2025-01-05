@@ -13,14 +13,31 @@ function Buttons() {
     </div>
 
     {/* outline and shadow btn */}
-    <div className='p-32 bg-sky-200'>
-
+    <div className='p-32 bg-sky-200 flex justify-center text-xl '>
+      <div className='space-x-32 '>
+        <a href="#" className='border-sky-800 border rounded py-4 px-8 text-sky-800 hover:border-sky-500 transition duration-500 font-bold'>Do It</a>
+        <a href="#" className='py-4 px-8 rounded-full shadow-md hover:shadow-xl transition duration-500 bg-white text-sky-600'>Don`t Do It</a>
+        
+        <button className='py-4 px-8 border border-black rounded-xl transition duration-500 transform hover:-translate-y-4'>
+        click me
+        </button>
+      </div>
     </div>
 
-
-
     {/* grouped and button w/icon */}
-    <div className='p-32 bg-violet-200'>
+    <div className='p-32 bg-violet-200 space-x-8 text-xl flex justify-center '>
+      <div className='flex text-center'>
+          <a href="# " className='bg-violet-600 hover:bg-violet-700 text-purple-200 py-2 w-16 rounded-l-xl transition duration-300 flex items-center justify-center'>👈</a>
+          <a href="# " className='bg-violet-600 hover:bg-violet-700 text-purple-200 py-2 w-16 transition duration-300 flex items-center justify-center'>1</a>
+          <a href="# " className='bg-violet-600 hover:bg-violet-700 text-purple-200 py-2 w-16 transition duration-300 flex items-center justify-center'>2</a>
+          <a href="# " className='bg-violet-600 hover:bg-violet-700 text-purple-200 py-2 w-16 rounded-r-xl transition duration-300 flex items-center justify-center ' >👉</a>
+      </div>
+
+          <a href="#" className='bg-indigo-400 pl-6 rounded-full flex items-center text-indigo-700 hover:bg-indigo-300 '>
+            <span className='mr-3 text-xl '>Click this</span>
+            <span className='inline-block bg-indigo-500 h-16 w-16 rounded-full flex items-center justify-center hover:bg-indigo-700 animate-spin'>🤘</span>
+          </a>
+
 
     </div>
     
