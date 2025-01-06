@@ -5,6 +5,7 @@ import Grid from "./Components/Grid"
 import MakeCards from "./Components/MakeCards"
 import Buttons from "./Components/Buttons"
 import Form from "./Components/Form"
+import BeginnerTailwind from "./Components/BeginnerTailwind"
 
 // import Card from "./Components/card"
 function App() {
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <>
-    <Form />
+    <BeginnerTailwind />
     </>
   )
 }
